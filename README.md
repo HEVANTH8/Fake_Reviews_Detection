@@ -65,4 +65,6 @@ from sklearn.metrics import accuracy_score
 6. Multinomial Naive Bayes Prediction Accuracy: 85.48%
 
 
-##### Special Thanks to 
+##### Special Thanks To 
+
+Code inspired by:https://github.com/SayamAlt/Fake-Reviews-Detection/commits?author=SayamAlt
