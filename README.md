@@ -10,3 +10,59 @@ The generated fake reviews dataset contains 20,000 fake reviews and 20,000 real 
 - **OR** = Original reviews (presumably human-created and authentic)  
 - **CG** = Computer-generated fake reviews
 
+## Python Libraries and Packages Used in the Project
+
+%pip install numpy
+%pip install nltk
+%pip install sklearn
+%pip install -U scikit-learn
+%pip install stopwords
+from sklearn.pipeline import Pipeline
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import LogisticRegression
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score  
+
+
+## Techniques Used for Text Preprocessing
+
+- Removing punctuation characters  
+- Transforming text to lowercase  
+- Eliminating stopwords  
+- Stemming  
+- Lemmatizing  
+- Removing digits
+
+
+## Transformers Used for Text Vectorization, Weighting and Normalization
+
+- CountVectorizer (used for Bag of Words Counting)
+- TF-IDF (Term Frequency-Inverse Document Frequency)
+
+
+## Machine Learning Algorithms Used
+
+1. Multinomial Naive Bayes
+2. Decision Tree Classifier
+3. support Vector Classifer
+4. K Nearest Neighbors
+5. Random Forest Classifier
+
+
+## Performance Overview of ML Models:
+
+1. Logistic Regression Prediction Accuracy: 87.61%
+2. K Nearest Neighbors Prediction Accuracy: 57.4%
+3. Decision Tree Classifier Prediction Accuracy: 74.16%
+4. Random Forests Classifier Prediction Accuracy: 85.48%
+5. Support Vector Machines Prediction Accuracy: 89.23%
+6. Multinomial Naive Bayes Prediction Accuracy: 85.48%
+
+
+##### Special Thanks to 
